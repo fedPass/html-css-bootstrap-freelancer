@@ -84,6 +84,14 @@ header a {
     padding: 0 14px;
 }
 
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+}
+
 /*-----jumbo---*/
 
 #jumbo img {
@@ -142,7 +150,6 @@ footer {
     color: #fff;
     float: left;
     width: 25%;
-    margin: 0 10px;
 
 }
 
