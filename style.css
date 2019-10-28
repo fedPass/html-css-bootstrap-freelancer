@@ -7,6 +7,34 @@ section {
     padding: 100px 0;
 }
 
+h1 {
+    font-size: 44px
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.divider {
+    margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+    display: inline-block;
+    content: "";
+    background-color: #fff;
+    height: 4px;
+    width: 112px;
+    position: relative;
+    bottom: 10px;
+}
+
+.divider i {
+    margin: 0 15px;
+    font-size: 32px;
+}
+
 /*-----header---*/
 header {
     background-color: #2c3e50;
@@ -54,32 +82,27 @@ header a {
     margin: 0 auto;
 }
 
-#jumbo h1 {
-    font-size: 44px;
-}
-
 #jumbo p {
     font-size: 20px;
 }
 
-.divider {
-    margin: 20px 0;
+/*----portfolio---*/
+
+#portfolio {
+    color: #2c3e50;
 }
 
-.divider::before,
-.divider::after {
-    display: inline-block;
-    content: "";
-    background-color: #fff;
-    height: 4px;
-    width: 112px;
-    position: relative;
-    bottom: 10px;
+#portfolio .divider::after,
+#portfolio .divider::before {
+    background-color: #2c3e50;
 }
 
-.divider i {
-    margin: 0 15px;
-    font-size: 32px;
+#portfolio img {
+    max-width: 100%;
+}
+
+.portfolio-img {
+    margin-bottom: 20px;
 }
 
 /* Small devices (tablets, 768px and up) */
