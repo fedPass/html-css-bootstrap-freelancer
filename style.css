@@ -15,6 +15,11 @@ h2 {
     font-size: 36px;
 }
 
+.colored-strip {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
 .divider {
     margin: 20px 0;
 }
@@ -72,11 +77,6 @@ header a {
 
 /*-----jumbo---*/
 
-#jumbo {
-    background-color: #1abc9c;
-    color: #fff;
-}
-
 #jumbo img {
     max-width: 240px;
     margin: 0 auto;
@@ -105,10 +105,31 @@ header a {
     margin-bottom: 20px;
 }
 
+/*----about---*/
+
+#about p {
+    font-size: 20px;
+}
+
+#about i {
+    margin-right: 5px;
+}
+
+#about button {
+    background-color: transparent;
+    border-color: #fff;
+    border-width: medium;
+    padding: 16px 28px;
+}
+
+.row.button {
+    margin-top: 25px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
-    #jumbo h1 {
+    h1 strong {
         font-size: 64px;
     }
 
@@ -116,10 +137,16 @@ header a {
         font-size: 24px;
     }
 
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md-min) {
+
+    h2 {
+        font-size: 48px;
+    }
 
 
 }
